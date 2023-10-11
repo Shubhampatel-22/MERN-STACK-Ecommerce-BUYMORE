@@ -1,4 +1,4 @@
-// import { instance  } from "../server.js";
+
 
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const {instance}= require("../server.js")
@@ -79,3 +79,5 @@ if (isAuthentic) {
   });
 }
 })
+
+
